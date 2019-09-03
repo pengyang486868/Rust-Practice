@@ -9,7 +9,7 @@ pub fn test1() {
         field_two: String::from("seres"),
     };
 
-    st.field_one = 10;
+    st.field_one = 10; // write something
 
     println!("{}", st.field_two);
 
